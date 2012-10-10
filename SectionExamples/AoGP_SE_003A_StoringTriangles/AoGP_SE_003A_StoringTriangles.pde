@@ -50,8 +50,8 @@ void setup() {
       // Create two triangles for each subdivision, triangles ABD and CBD.
       // Notice that these two triangles share vertices B and D.
       // We use PVector's get() method to clone vertices B and D, so that each triangle possesses its own unique copies.
-      triContainer.addTriangle( new Tri( vertA, vertB.get(), vertD.get() ) );
-      triContainer.addTriangle( new Tri( vertC, vertB.get(), vertD.get() ) );
+      //triContainer.addTriangle( new Tri( vertA, vertB.get(), vertD.get() ) );
+      //triContainer.addTriangle( new Tri( vertC, vertB.get(), vertD.get() ) );
       
       // Try rerunning the program with the following two lines instead of the preceeding lines:
       //triContainer.addTriangle( new Tri( vertA, vertB, vertD ) );
