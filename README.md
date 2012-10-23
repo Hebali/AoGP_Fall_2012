@@ -5,7 +5,7 @@ New course materials will be added every other week during the Fall 2012 semeste
 
 
 Please note, Section Examples 005A+ require the GLGraphics library:
-http://glgraphics.sourceforge.net
+http://sourceforge.net/projects/glgraphics/
 
 GLGraphics may conflict with some alpha/beta versions of Processing 2.0
 Section Examples 005A+ have been tested to work with Processing 1.5.1

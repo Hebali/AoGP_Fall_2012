@@ -7,7 +7,7 @@
 import processing.opengl.*;
 // Raw OpenGL handle
 import javax.media.opengl.*;
-// GLGraphics: http://glgraphics.sourceforge.net
+// GLGraphics: http://sourceforge.net/projects/glgraphics/
 import codeanticode.glgraphics.*;
 
 TMesh   mesh;
