@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32ACEC5716552EAA00AF8466 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC5616552EAA00AF8466 /* Cocoa.framework */; };
+		32ACEC5916552EAA00AF8466 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC5816552EAA00AF8466 /* AppKit.framework */; };
+		32ACEC5B16552EAA00AF8466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC5A16552EAA00AF8466 /* Foundation.framework */; };
+		32ACEC5D16552EAA00AF8466 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC5C16552EAA00AF8466 /* Accelerate.framework */; };
+		32ACEC5F16552EAA00AF8466 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC5E16552EAA00AF8466 /* AudioToolbox.framework */; };
+		32ACEC6116552EAA00AF8466 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC6016552EAA00AF8466 /* AudioUnit.framework */; };
+		32ACEC6316552EAB00AF8466 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC6216552EAA00AF8466 /* CoreAudio.framework */; };
+		32ACEC6516552EAB00AF8466 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC6416552EAB00AF8466 /* QuickTime.framework */; };
+		32ACEC6716552EAB00AF8466 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC6616552EAB00AF8466 /* QTKit.framework */; };
+		32ACEC6916552EAB00AF8466 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC6816552EAB00AF8466 /* CoreVideo.framework */; };
+		32ACEC6B16552EAB00AF8466 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC6A16552EAB00AF8466 /* Carbon.framework */; };
+		32ACEC6D16552EAB00AF8466 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ACEC6C16552EAB00AF8466 /* OpenGL.framework */; };
+		32ACEC7316552EAB00AF8466 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32ACEC7116552EAB00AF8466 /* InfoPlist.strings */; };
+		32ACEC7B16552EAB00AF8466 /* Aogp_Shader_BasicApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32ACEC7A16552EAB00AF8466 /* Aogp_Shader_BasicApp.cpp */; };
+		32ACECAF165538C100AF8466 /* logo.icns in Resources */ = {isa = PBXBuildFile; fileRef = 32ACECAE165538C100AF8466 /* logo.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32ACEC5216552EAA00AF8466 /* Aogp_Shader_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aogp_Shader_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32ACEC5616552EAA00AF8466 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		32ACEC5816552EAA00AF8466 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		32ACEC5A16552EAA00AF8466 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32ACEC5C16552EAA00AF8466 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		32ACEC5E16552EAA00AF8466 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		32ACEC6016552EAA00AF8466 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		32ACEC6216552EAA00AF8466 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		32ACEC6416552EAB00AF8466 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
+		32ACEC6616552EAB00AF8466 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		32ACEC6816552EAB00AF8466 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		32ACEC6A16552EAB00AF8466 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		32ACEC6C16552EAB00AF8466 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		32ACEC7016552EAB00AF8466 /* Aogp_Shader_Basic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aogp_Shader_Basic-Info.plist"; sourceTree = "<group>"; };
+		32ACEC7216552EAB00AF8466 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32ACEC7416552EAB00AF8466 /* Aogp_Shader_Basic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aogp_Shader_Basic-Prefix.pch"; sourceTree = "<group>"; };
+		32ACEC7A16552EAB00AF8466 /* Aogp_Shader_BasicApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Aogp_Shader_BasicApp.cpp; path = src/Aogp_Shader_BasicApp.cpp; sourceTree = "<group>"; };
+		32ACECAE165538C100AF8466 /* logo.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = logo.icns; path = resources/logo.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32ACEC4F16552EAA00AF8466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACEC5716552EAA00AF8466 /* Cocoa.framework in Frameworks */,
+				32ACEC5916552EAA00AF8466 /* AppKit.framework in Frameworks */,
+				32ACEC5B16552EAA00AF8466 /* Foundation.framework in Frameworks */,
+				32ACEC5D16552EAA00AF8466 /* Accelerate.framework in Frameworks */,
+				32ACEC5F16552EAA00AF8466 /* AudioToolbox.framework in Frameworks */,
+				32ACEC6116552EAA00AF8466 /* AudioUnit.framework in Frameworks */,
+				32ACEC6316552EAB00AF8466 /* CoreAudio.framework in Frameworks */,
+				32ACEC6516552EAB00AF8466 /* QuickTime.framework in Frameworks */,
+				32ACEC6716552EAB00AF8466 /* QTKit.framework in Frameworks */,
+				32ACEC6916552EAB00AF8466 /* CoreVideo.framework in Frameworks */,
+				32ACEC6B16552EAB00AF8466 /* Carbon.framework in Frameworks */,
+				32ACEC6D16552EAB00AF8466 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ACEC4716552EAA00AF8466 = {
+			isa = PBXGroup;
+			children = (
+				32ACEC6E16552EAB00AF8466 /* Aogp_Shader_Basic */,
+				32ACEC5516552EAA00AF8466 /* Frameworks */,
+				32ACEC5316552EAA00AF8466 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32ACEC5316552EAA00AF8466 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32ACEC5216552EAA00AF8466 /* Aogp_Shader_Basic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32ACEC5516552EAA00AF8466 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32ACEC5616552EAA00AF8466 /* Cocoa.framework */,
+				32ACEC5816552EAA00AF8466 /* AppKit.framework */,
+				32ACEC5A16552EAA00AF8466 /* Foundation.framework */,
+				32ACEC5C16552EAA00AF8466 /* Accelerate.framework */,
+				32ACEC5E16552EAA00AF8466 /* AudioToolbox.framework */,
+				32ACEC6016552EAA00AF8466 /* AudioUnit.framework */,
+				32ACEC6216552EAA00AF8466 /* CoreAudio.framework */,
+				32ACEC6416552EAB00AF8466 /* QuickTime.framework */,
+				32ACEC6616552EAB00AF8466 /* QTKit.framework */,
+				32ACEC6816552EAB00AF8466 /* CoreVideo.framework */,
+				32ACEC6A16552EAB00AF8466 /* Carbon.framework */,
+				32ACEC6C16552EAB00AF8466 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32ACEC6E16552EAB00AF8466 /* Aogp_Shader_Basic */ = {
+			isa = PBXGroup;
+			children = (
+				32ACEC7916552EAB00AF8466 /* Source */,
+				32ACEC7C16552EAB00AF8466 /* Headers */,
+				32ACEC7F16552EAB00AF8466 /* Resources */,
+				32ACEC6F16552EAB00AF8466 /* Supporting Files */,
+			);
+			path = Aogp_Shader_Basic;
+			sourceTree = "<group>";
+		};
+		32ACEC6F16552EAB00AF8466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32ACEC7016552EAB00AF8466 /* Aogp_Shader_Basic-Info.plist */,
+				32ACEC7116552EAB00AF8466 /* InfoPlist.strings */,
+				32ACEC7416552EAB00AF8466 /* Aogp_Shader_Basic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32ACEC7916552EAB00AF8466 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32ACEC7A16552EAB00AF8466 /* Aogp_Shader_BasicApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		32ACEC7C16552EAB00AF8466 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		32ACEC7F16552EAB00AF8466 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32ACECAE165538C100AF8466 /* logo.icns */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32ACEC5116552EAA00AF8466 /* Aogp_Shader_Basic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32ACEC8A16552EAB00AF8466 /* Build configuration list for PBXNativeTarget "Aogp_Shader_Basic" */;
+			buildPhases = (
+				32ACEC4E16552EAA00AF8466 /* Sources */,
+				32ACEC4F16552EAA00AF8466 /* Frameworks */,
+				32ACEC5016552EAA00AF8466 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aogp_Shader_Basic;
+			productName = Aogp_Shader_Basic;
+			productReference = 32ACEC5216552EAA00AF8466 /* Aogp_Shader_Basic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32ACEC4916552EAA00AF8466 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Patrick J Hebron";
+			};
+			buildConfigurationList = 32ACEC4C16552EAA00AF8466 /* Build configuration list for PBXProject "Aogp_Shader_Basic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32ACEC4716552EAA00AF8466;
+			productRefGroup = 32ACEC5316552EAA00AF8466 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32ACEC5116552EAA00AF8466 /* Aogp_Shader_Basic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32ACEC5016552EAA00AF8466 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACEC7316552EAB00AF8466 /* InfoPlist.strings in Resources */,
+				32ACECAF165538C100AF8466 /* logo.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32ACEC4E16552EAA00AF8466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ACEC7B16552EAB00AF8466 /* Aogp_Shader_BasicApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32ACEC7116552EAB00AF8466 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32ACEC7216552EAB00AF8466 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32ACEC8816552EAB00AF8466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = /Users/pjh/Desktop/Work/cinder_master;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(CINDER_PATH)/boost";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(CINDER_PATH)/lib/libcinder_d.a";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../include $(CINDER_PATH)/include";
+			};
+			name = Debug;
+		};
+		32ACEC8916552EAB00AF8466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				CINDER_PATH = /Users/pjh/Desktop/Work/cinder_master;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(CINDER_PATH)/boost";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_LDFLAGS = "$(CINDER_PATH)/lib/libcinder.a";
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "../include $(CINDER_PATH)/include";
+			};
+			name = Release;
+		};
+		32ACEC8B16552EAB00AF8466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aogp_Shader_Basic/Aogp_Shader_Basic-Prefix.pch";
+				INFOPLIST_FILE = "Aogp_Shader_Basic/Aogp_Shader_Basic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32ACEC8C16552EAB00AF8466 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aogp_Shader_Basic/Aogp_Shader_Basic-Prefix.pch";
+				INFOPLIST_FILE = "Aogp_Shader_Basic/Aogp_Shader_Basic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32ACEC4C16552EAA00AF8466 /* Build configuration list for PBXProject "Aogp_Shader_Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ACEC8816552EAB00AF8466 /* Debug */,
+				32ACEC8916552EAB00AF8466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32ACEC8A16552EAB00AF8466 /* Build configuration list for PBXNativeTarget "Aogp_Shader_Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ACEC8B16552EAB00AF8466 /* Debug */,
+				32ACEC8C16552EAB00AF8466 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32ACEC4916552EAA00AF8466 /* Project object */;
+}

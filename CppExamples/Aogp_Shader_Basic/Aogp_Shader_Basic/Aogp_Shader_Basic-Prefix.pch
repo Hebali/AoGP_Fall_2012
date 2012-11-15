@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Aogp_Shader_Basic' target in the 'Aogp_Shader_Basic' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
