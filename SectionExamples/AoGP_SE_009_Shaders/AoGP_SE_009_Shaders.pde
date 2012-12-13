@@ -39,6 +39,8 @@ void setup() {
   // Since shaders can set the position of vertices, camera model, lighting and coloring of an object,
   // there is an opportunity for a sort of GLSL cubism. That is, we can fracture and fragment the way we visualize an environment, we can apply numerous visual styles, etc.
   // We can also use this feature more conventionally to simulate a variety of materials we might find in the real world - shiny ones, matte ones, metallic ones, etc.
+  
+  // For reference to the GLGraphics GLSL API, see: http://glgraphics.sourceforge.net/reference/codeanticode/glgraphics/GLSLShader.html
 
   // We now initialize the renderer with "GLConstants.GLGRAPHICS" rather than "OPENGL":
   size( 800, 600, GLConstants.GLGRAPHICS );
